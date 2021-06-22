@@ -1,75 +1,80 @@
 body {
-    background-color: #f49e47;
-    background-image: url('https://pro2-bar-s3-cdn-cf.myportfolio.com/67cf45ca-338d-4fd0-943b-32d96162976a/b7b52d14-b827-4c3a-906f-3b94fa13f35f_rw_1920.png');
-  }
-  
-  h1 {
-    color: #46484c;
-    text-align: center;
-  }
-  
-  p {
-    color: #8b8b8bcc;
-    font-family: verdana;
-    font-size: 20px;
-  }
-  
-  button {
-    color: #fff;
-    background-color: #025157;
-  }
-  
-  .header {
-    margin:  40px 20px 0px 20px;
-    font-size: 0;
-    line-height: 45px;
-    font-family: sans-serif;
-  }
-  
-  li {
-    display: inline;
-  }
-  
-  .header > * {
-    display: inline-block;
-    font-size: 16px;
-    vertical-align: middle;
-    height: 100%;
-    line-height: 45px;
-  }
-  
-  .logo {
-    width: 15%;
-  }
-  
-  .navbar {
-  width: 70%;
-  text-align: center;
-  color: #025157;
+  /*background-color: #fffbf7;*/
 }
-  
-  .actions {
-    width: 15%;
-    text-align: left;
-    font-size: 14px;
-    font-weight: 600;
-  }
 
-  .actions button{
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+h2 {
+  color: #46484c;
+}
+
+p {
+  color: #8b8b8bcc;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20;
+}
+
+button {
+  color: #fff;
+  background-color: #025157;
+}
+
+li {
+  display: inline;
+}
+
+.header {
+ margin: 40px, 20px, 0, 20px;
+  font-size: 0;
+  line-height: 45px;
+}
+
+.header > * {
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: middle;
+  height: 100%;
+  line-height: 45px;
+  font-family: sans-serif;
+}
+
+.logo {
+    width: 15%;
+}
+
+.navbar{
+    width: 70%;
+    text-align: left;
+
+}
+
+nav > ul > li {
+    padding-right: 25px;
+    padding-left: 25px;
+    color: #025157;
+}
+
+.actions{
+    width: 15%;
+    text-align: right;
+    font-size: 14px;
+}
+
+.actions > *{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div>a{
+    color: #67b54b;
+    
+}
+div>button{
     color: white;
     background-color: #67b54b;
-    padding-left: 14px;
-    padding-right: 14px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    border: 0;
+    padding: 12px, 14px;
     border-radius: 5px;
-  }
-
-.actions a {
-    color: #67b54b;
 }
-
-.actions > * {
-    margin: 0 10px 0 10px;
-  }
